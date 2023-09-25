@@ -1,8 +1,18 @@
+import { Container } from "./components/Container";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Title from "./components/Title";
+
+
 function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <Container>
+        <Title>Área Administrativa</Title>
+      </Container>
+      <Footer />
     </>
   )
 }
