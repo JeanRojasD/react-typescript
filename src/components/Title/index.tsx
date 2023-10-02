@@ -25,7 +25,9 @@ background-image: ${props => props.image ? `url(${props.image})` : 'none'}
 `
 
 const StyledTitle = styled.h2`
-color: var(--azul-claro);
+color: #339CFF;
+font-weight: 700;
+font-size: 24px;
 `
 
 const StyledContainer = styled.div`
